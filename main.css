@@ -1,5 +1,5 @@
 .header{
-    background-color: black;
+    background-color: #24292e;
     font-weight: bold;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +14,33 @@
 
 .body{
     display: grid;
+    background-color:  #2b3137
 }
 
+#nome{
+    color: white;
+    font-weight: bold; 
+}
 
+#tarefa{
+    width: 50%;
+}
+
+.container2{
+    background-color: #24292e;
+}
+
+#btnexcluir{
+    position: relative;
+    left: 3%;
+    border-radius: 35%;
+}
+
+.acoes{
+    color: white;
+}
+
+.tabelafont{
+    color: white;
+}
 
