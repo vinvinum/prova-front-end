@@ -14,9 +14,9 @@ function salvarTarefa(){
 }
 
 function criarLista(){
-    let tabela =  "<tr><th>Tarefas</th><th>Ações</th></tr>";
+    let tabela =  "<tr><th class='acoes'>Tarefas</th><th>📝</th></tr>";
     for(let i = 0; i <= (dadosLista.length - 1); i++){
-        tabela += "<tr><td>" +dadosLista[i] + "</td><td><input type='checkbox' id='checkbox'</button><button class='btn btn-danger' id='btnexcluir' onclick='excluir(this.parentNode.parentNode.rowIndex)'>X</button> </td></tr>";
+        tabela += "<tr><td class='tabelafont'>" +dadosLista[i] + "</td><td><input type='checkbox' id='checkbox'</button><button class='btn btn-danger' id='btnexcluir' onclick='excluir(this.parentNode.parentNode.rowIndex)'>X</button> </td></tr>";
         document.getElementById('tabela').innerHTML = tabela;
     }
 }
